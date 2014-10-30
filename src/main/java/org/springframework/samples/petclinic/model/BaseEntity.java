@@ -29,7 +29,7 @@ public class BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Integer id;
 
-    
+    int i = 1;
     public void setId(Integer id) {
         this.id = id;
     }
